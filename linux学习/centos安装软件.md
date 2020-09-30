@@ -52,34 +52,31 @@ rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0
 yum install nginx
 ```
 
-3. 启动Nginx
-```shell
-service nginx start
-```
-
 > 配置文件在 /etc/nginx/conf.d/ 
 
-4. 启用nginx，开机自启动
+3. 启用nginx，开机自启动
 ```shell
 systemctl enable nginx
 ```
 
-5. 启动nginx
+4. 启动nginx
 ```shell
 systemctl start nginx
 ```
 
-6. 查看nginx状态
+5. 查看nginx状态
 ```shell
 systemctl status nginx
 ```
 
-7. 停止nginx
+6. 停止nginx
 ```shell
 systemctl stop nginx
 ```
 
-8. 重新加载nginx
+7. 重新加载nginx
 ```shell
 systemctl reload nginx
 ```
+
+## 安装redis
